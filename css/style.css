@@ -1,0 +1,66 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.centro{
+	position: relative;
+	top: 100;
+}
+
+.titulo{
+	font: 400 80px Oswald;
+	margin-bottom: 50px;
+	text-shadow: rgba(255, 255, 255, 0.22) 1px 2px 0px;
+}
+
+.busca{
+	text-align: center;
+	font: 400 15px Sniglet;
+	width: 400px;
+	height: 30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.num{
+	font: 400 20px Sniglet;
+	text-shadow: rgba(255, 255, 255, 1) 1px 1px 5px;
+}
+
+.botao{
+	background: rgba(0, 0, 0, 0.15);
+	border: solid 1 black;
+	width: 150px;
+	height: 35;
+}
+
+.botao:hover{
+	background: rgba(0, 0, 0, 0.38);
+	border: solid 1 black;
+	width: 150px;
+	height: 35;
+	box-shadow: rgba(24, 22, 22, 0.38) 0px 0px 10px;
+	cursor: hand;
+	transition:all 0.4s linear;
+}
+
+.head{
+	font: 400 15px Sniglet;
+	background: rgba(255, 255, 255, 0.67);
+	position: relative;
+	text-align: center;
+	height: 21;
+	padding-top: 5;
+}
+
+.rodape{
+	font: 400 15px Sniglet;
+	text-shadow: rgba(255, 239, 239, 0.38) 2px 2px 0px;
+	background: rgba(0, 0, 0, 0.37);
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}

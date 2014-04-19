@@ -1,0 +1,41 @@
+.link_img{
+	background-color: rgba(248, 248, 248, 0.64);
+	padding: 10 10 10 10;
+}
+
+.link{
+	background-color: rgba(248, 248, 248, 0.64);
+	padding: 10 10 10 10;
+}
+
+img:hover
+{
+	opacity:0.65;
+}
+
+.titulo_lado{
+	float: left;
+	font: 400 20px Sniglet;
+	margin-bottom: 50px;
+}
+
+.titulo_lado a{
+	text-decoration: none;
+	color: black;
+}
+
+.titulo_lado a:hover{
+	text-shadow: black 0px 0px 2px;
+}
+
+/*.bt_1{
+	background: green;
+	width: 25;
+	height: 35;
+}
+
+.bt_0{
+	background: blue;
+	width: 25;
+	height: 35;
+}*/
