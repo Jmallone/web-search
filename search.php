@@ -49,7 +49,7 @@ require("config/config.php");
 	
 			}else if($search== 0){
 				if(!strstr($scan['link'],'jpg') && !strstr($scan['link'],'.gif') && !strstr($scan['link'],'.png') && !strstr($scan['link'],'.js') && !strstr($scan['link'],'.css')){
-					echo '</div><div class="link"><a href="'.$scan['link'].'">'.$scan['link'].'</a><Br></div>';
+					echo '</div><div class="link"><a href="'.$scan['link'].'">Titulo: '.$scan['nome'].'</a> <br>Link '.$scan['link'].'<p>'.$scan['txt'].'</div>';
 					}
 				}
 			}
