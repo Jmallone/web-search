@@ -1,6 +1,6 @@
 Web-Search
 ==========
-Teste para um prototico de rastreador web.
+Teste para um protótipo de rastreador web.
 
 ### Versao
 0.0.1
